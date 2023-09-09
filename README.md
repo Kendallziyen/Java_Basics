@@ -1,2 +1,2 @@
-# java_basics
-Basics for beginners
+# Java Basics
+All the basics for beginners
