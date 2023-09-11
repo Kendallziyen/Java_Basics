@@ -1,4 +1,4 @@
-package week3_variable_string;
+package week3_variable;
 
 public class name_age {
 
