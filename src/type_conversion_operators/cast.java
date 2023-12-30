@@ -1,4 +1,4 @@
-package week4_type_conversion_operators;
+package type_conversion_operators;
 
 public class cast {
     public static void main(String[] args){

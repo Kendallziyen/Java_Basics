@@ -1,4 +1,4 @@
-package week8_control_statements;
+package control_statements;
 
 public class demo_while_loop {
 

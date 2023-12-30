@@ -1,4 +1,4 @@
-package week3_variables_string;
+package variables_string;
 
 public class trapezoidal_area {
 
