@@ -1,10 +1,10 @@
-package algorithm;
+package sorts;
 
 import java.util.Random;
 
 import static java.lang.System.out;
 
-public class quicksort_cleanCode {
+public class quicksort_originalCode {
 
     public static void main(String[] args){
 
@@ -20,16 +20,12 @@ public class quicksort_cleanCode {
         out.println("Before:");
         printArray(numbers);
 
-        quicksort(numbers);
+        quicksort(numbers, 0, numbers.length-1);
 
         out.println("After:");
         printArray(numbers);
     }
 
-    //overload the quicksort method
-    private static void quicksort(int[] array){
-        quicksort(array,0, array.length-1);
-    }
     private static void quicksort(int[] array, int lowIndex, int highIndex){
 
         //only one element left and it has been sorted
@@ -37,24 +33,10 @@ public class quicksort_cleanCode {
             return;
         }
 
-        //give the random pivot somewhere between lowIndex and highIndex
-        int pivotIndex = new Random().nextInt(highIndex-lowIndex) + lowIndex;
-        int pivot = array[pivotIndex];
-
-        //move the pivotIndex to the last
-        swap(array,pivotIndex,highIndex);
+        //pick the last element in the array=highIndex
+        int pivot = array[highIndex];
 
         //walking through the array a single element at a time until we find an element that is larger than the pivot
-        int leftPointer = partition(array, lowIndex, highIndex, pivot);
-
-        //left side quicksort
-        quicksort(array,lowIndex,leftPointer-1);
-
-        //right side quicksort
-        quicksort(array,leftPointer+1,highIndex);
-    }
-
-    private static int partition(int[] array, int lowIndex, int highIndex, int pivot) {
         int leftPointer = lowIndex;
         int rightPointer = highIndex;
 
@@ -74,8 +56,13 @@ public class quicksort_cleanCode {
             swap(array, leftPointer, rightPointer);
         }
 
-        swap(array,leftPointer, highIndex);
-        return leftPointer;
+        swap(array,leftPointer,highIndex);
+
+        //left side quicksort
+        quicksort(array,lowIndex,leftPointer-1);
+
+        //right side quicksort
+        quicksort(array,leftPointer+1,highIndex);
     }
 
 
