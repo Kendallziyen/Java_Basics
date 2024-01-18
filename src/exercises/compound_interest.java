@@ -1,4 +1,4 @@
-package variables_string;
+package exercises;
 
 public class compound_interest {
 
