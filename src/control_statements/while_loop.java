@@ -1,13 +1,15 @@
 package control_statements;
 
-public class demo_do_while {
+public class while_loop {
 
     public static void main(String[] args) {
 
-        int i=11;
+        int i=1;
 
-        do {
+        while(i<10) {
+
             System.out.println(i);
-        }while(i<10);
+            i++;
+        }
     }
 }

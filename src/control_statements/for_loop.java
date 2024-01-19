@@ -1,6 +1,6 @@
 package control_statements;
 
-public class demo_for_loop {
+public class for_loop {
 
     public static void main(String[] args) {
 
@@ -13,3 +13,5 @@ public class demo_for_loop {
         }
     }
 }
+
+//Nested Loop

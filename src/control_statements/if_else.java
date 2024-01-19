@@ -1,6 +1,6 @@
 package control_statements;
 
-public class demo_if_else {
+public class if_else {
 
     public static void main(String[] args) {
 
