@@ -1,6 +1,6 @@
 package string_methods;
 
-public class indexOf {
+public class IndexOf_methods {
 
     public static void main(String[] args){
 

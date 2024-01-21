@@ -1,6 +1,6 @@
 package string_methods;
 
-public class length {
+public class Length_methods {
 
     public static void main(String[] args){
 

@@ -1,6 +1,6 @@
 package string_methods;
 
-public class concat {
+public class Concat_methods {
 
     public static void main(String[] args){
 

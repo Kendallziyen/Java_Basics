@@ -1,6 +1,6 @@
 package string_methods;
 
-public class upper_lower_cases {
+public class Upper_lower_cases {
 
     public static void main(String[] args){
 
