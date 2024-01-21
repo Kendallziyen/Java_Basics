@@ -1,6 +1,6 @@
 package func_methods;
 
-public class method_overload {
+public class Method_overload {
 
     static int plusMethod(int x,int y){
         return x + y;

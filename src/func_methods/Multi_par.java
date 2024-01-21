@@ -1,6 +1,6 @@
 package func_methods;
 
-public class multi_par {
+public class Multi_par {
 
     static void living(String name, int age){
 

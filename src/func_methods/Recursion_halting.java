@@ -1,6 +1,6 @@
 package func_methods;
 
-public class recursion_halting {
+public class Recursion_halting {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package func_methods;
 
-public class par_return {
+public class Par_return {
 
 
     static int numReturn(int age){

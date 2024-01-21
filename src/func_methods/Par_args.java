@@ -1,6 +1,6 @@
 package func_methods;
 
-public class par_args {
+public class Par_args {
 
     static void living(String name){
 
