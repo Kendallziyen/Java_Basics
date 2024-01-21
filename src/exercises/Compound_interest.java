@@ -1,6 +1,6 @@
 package exercises;
 
-public class compound_interest {
+public class Compound_interest {
 
     public static void main(String[] args){
 

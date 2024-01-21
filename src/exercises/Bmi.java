@@ -1,6 +1,6 @@
 package exercises;
 
-public class bmi {
+public class Bmi {
 
     public static void main(String[] args){
 

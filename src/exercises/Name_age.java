@@ -1,6 +1,6 @@
 package exercises;
 
-public class name_age {
+public class Name_age {
 
     public static String gender;
 

@@ -1,6 +1,6 @@
 package exercises;
 
-public class trapezoidal_area {
+public class Trapezoidal_area {
 
     public static void main(String[] args){
 

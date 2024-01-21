@@ -2,7 +2,7 @@ package exercises;
 
 import java.time.LocalDate;
 
-public class retired_year {
+public class Retired_year {
 
     public static void main(String[] args){
 
