@@ -1,4 +1,4 @@
-package APCS;
+package apcs;
 
 import java.util.Scanner;
 public class Simple_adding {
