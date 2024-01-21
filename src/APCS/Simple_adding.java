@@ -1,7 +1,7 @@
 package APCS;
 
 import java.util.Scanner;
-public class simple_adding{
+public class Simple_adding {
 
     public static void main(String[] args){
 
