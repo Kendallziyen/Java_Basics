@@ -1,8 +1,8 @@
-package Array_loop_through;
+package array_loop_through;
 
 import java.util.Arrays;
 
-public class multi {
+public class Multi {
 
     public static void main(String[] args){
 
