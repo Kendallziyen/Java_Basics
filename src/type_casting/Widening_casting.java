@@ -1,11 +1,11 @@
 package type_casting;
 
-public class narrowing_casting {
+public class Widening_casting {
 
     public static void main(String[] args){
 
-        double myDouble = 9.7d;
-        int myInt = (int) myDouble;
+        int myInt = 9;
+        double myDouble = myInt;
 
         System.out.println(myInt);
         System.out.println(myDouble);
@@ -13,4 +13,4 @@ public class narrowing_casting {
     }
 }
 
-//e.g. double-->int
+//e.g. int-->double
