@@ -1,6 +1,6 @@
 package control_statements;
 
-public class for_loop {
+public class For_loop {
 
     public static void main(String[] args) {
 

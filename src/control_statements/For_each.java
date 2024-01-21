@@ -1,6 +1,6 @@
 package control_statements;
 
-public class for_each {
+public class For_each {
 
     public static void main(String[] args) {
 

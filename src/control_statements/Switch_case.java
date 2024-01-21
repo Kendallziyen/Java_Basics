@@ -1,6 +1,6 @@
 package control_statements;
 
-public class switch_case {
+public class Switch_case {
 
     public static void main(String[] args) {
 

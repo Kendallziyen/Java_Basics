@@ -1,6 +1,6 @@
 package control_statements;
 
-public class if_else_short_hand {
+public class If_else_short_hand {
 
     public static void main(String[] args){
 
