@@ -1,6 +1,6 @@
 package side_projects;
 import java.util.*;
-public class tic_tac_toe {
+public class Tic_tac_toe {
 
     static ArrayList<Integer> playerPositions = new ArrayList<Integer>();
     static ArrayList<Integer> cpuPositions = new ArrayList<Integer>();
