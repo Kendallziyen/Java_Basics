@@ -1,2 +1,2 @@
 # Java Basics
-All the basics for beginners
+This is the material for beginners learning fundamentals of Java Programming.
