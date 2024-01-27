@@ -4,12 +4,12 @@ public class Multi_classes {
 
     public static void main(String[] args) {
 
-        class2 myObj = new class2();
+        Class2 myObj = new Class2();
         System.out.println(myObj.num);
     }
 }
 
-class class2 {
+class Class2 {
 
     int num = 3;
 }
