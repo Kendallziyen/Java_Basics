@@ -12,3 +12,7 @@ public class Object_create {
         System.out.println(myObj2.num);
     }
 }
+
+
+//class:類別
+//object:屬於這個類別的物件
